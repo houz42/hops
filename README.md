@@ -1,5 +1,9 @@
 # hops
 
+[![Go](https://img.shields.io/badge/Go-1.26+-00ADD8?logo=go&logoColor=white)](https://go.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Go Report Card](https://goreportcard.com/badge/github.com/houz42/hops)](https://goreportcard.com/report/github.com/houz42/hops)
+
 A TUI for managing `/etc/hosts` profiles. Inspired by [hostctl](https://github.com/guumaster/hostctl).
 
 ## What it does
