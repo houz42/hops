@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Document -->
+  <rect x="56" y="32" width="400" height="448" rx="20" fill="#313244" stroke="#45475a" stroke-width="3"/>
+
+  <!-- Profile group 1: blue -->
+  <rect x="96" y="96" width="120" height="12" rx="4" fill="#89b4fa" opacity="0.8"/>
+  <rect x="96" y="120" width="170" height="12" rx="4" fill="#89b4fa" opacity="0.55"/>
+  <rect x="96" y="144" width="100" height="12" rx="4" fill="#89b4fa" opacity="0.55"/>
+  <!-- Toggle ON -->
+  <rect x="348" y="112" width="52" height="28" rx="14" fill="#89b4fa"/>
+  <circle cx="386" cy="126" r="10" fill="#cdd6f4"/>
+
+  <!-- Separator -->
+  <rect x="96" y="184" width="300" height="2" rx="1" fill="#45475a"/>
+
+  <!-- Profile group 2: teal -->
+  <rect x="96" y="212" width="140" height="12" rx="4" fill="#94e2d5" opacity="0.8"/>
+  <rect x="96" y="236" width="110" height="12" rx="4" fill="#94e2d5" opacity="0.55"/>
+  <rect x="96" y="260" width="160" height="12" rx="4" fill="#94e2d5" opacity="0.55"/>
+  <!-- Toggle ON -->
+  <rect x="348" y="228" width="52" height="28" rx="14" fill="#94e2d5"/>
+  <circle cx="386" cy="242" r="10" fill="#cdd6f4"/>
+
+  <!-- Separator -->
+  <rect x="96" y="300" width="300" height="2" rx="1" fill="#45475a"/>
+
+  <!-- Profile group 3: muted/disabled -->
+  <rect x="96" y="328" width="130" height="12" rx="4" fill="#585b70" opacity="0.4"/>
+  <rect x="96" y="352" width="100" height="12" rx="4" fill="#585b70" opacity="0.3"/>
+  <rect x="96" y="376" width="150" height="12" rx="4" fill="#585b70" opacity="0.3"/>
+  <!-- Toggle OFF -->
+  <rect x="348" y="344" width="52" height="28" rx="14" fill="#45475a"/>
+  <circle cx="362" cy="358" r="10" fill="#585b70"/>
+</svg>
