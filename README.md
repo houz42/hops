@@ -6,6 +6,8 @@
 
 A TUI for managing `/etc/hosts` profiles. Inspired by [hostctl](https://github.com/guumaster/hostctl).
 
+![demo](demo/demo.gif)
+
 ## What it does
 
 - Manage groups of host entries as **profiles**
