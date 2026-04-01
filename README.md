@@ -6,7 +6,7 @@
 
 A TUI for managing `/etc/hosts` profiles. Inspired by [hostctl](https://github.com/guumaster/hostctl).
 
-![demo](demo/demo.gif)
+![demo](demo/demo.webp)
 
 ## What it does
 

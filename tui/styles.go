@@ -2,13 +2,17 @@ package tui
 
 import "github.com/charmbracelet/lipgloss"
 
+// ANSI 256 colors — maps to whatever the terminal theme defines.
+// This means hops looks native in Catppuccin, Dracula, Gruvbox, Solarized, etc.
 var (
-	colorGreen  = lipgloss.Color("#00cc66")
-	colorRed    = lipgloss.Color("#cc3333")
-	colorCyan   = lipgloss.Color("#00cccc")
-	colorDim    = lipgloss.Color("#666666")
-	colorWhite  = lipgloss.Color("#eeeeee")
-	colorYellow = lipgloss.Color("#cccc00")
+	colorBlue    = lipgloss.Color("4")  // enabled profiles, title accents
+	colorCyan    = lipgloss.Color("6")  // selected item, input labels
+	colorGray    = lipgloss.Color("8")  // disabled profiles, muted text
+	colorDim     = lipgloss.Color("8")  // help bar, dim hints
+	colorYellow  = lipgloss.Color("3")  // warnings, confirm prompts
+	colorRed     = lipgloss.Color("1")  // errors only
+	colorGreen   = lipgloss.Color("2")  // success status messages
+	colorDefault = lipgloss.Color("7")  // normal text
 
 	titleStyle = lipgloss.NewStyle().
 			Bold(true).
@@ -31,17 +35,17 @@ var (
 			Padding(0, 1)
 
 	enabledStyle = lipgloss.NewStyle().
-			Foreground(colorGreen)
+			Foreground(colorBlue)
 
 	disabledStyle = lipgloss.NewStyle().
-			Foreground(colorRed)
+			Foreground(colorGray)
 
 	selectedStyle = lipgloss.NewStyle().
 			Foreground(colorCyan).
 			Bold(true)
 
 	normalStyle = lipgloss.NewStyle().
-			Foreground(colorWhite)
+			Foreground(colorDefault)
 
 	dimStyle = lipgloss.NewStyle().
 			Foreground(colorDim)

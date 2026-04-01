@@ -1,14 +1,16 @@
-Output demo/add-profile.gif
+Output demo/add-profile.webp
 
 Set Shell "bash"
-Set FontFamily "JetBrains Mono"
-Set FontSize 16
+Set FontFamily "JetBrainsMono Nerd Font Mono"
+Set FontSize 18
+Set LetterSpacing 0
+Set LineHeight 1.2
 Set Width 1200
 Set Height 600
 Set Padding 20
 Set Theme "Catppuccin Mocha"
 Set TypingSpeed 80ms
-Set Framerate 24
+Set Framerate 30
 Set WindowBar Colorful
 Set Margin 20
 Set MarginFill "#1e1e2e"
